@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  margin: 20px;
+  font-family: Arial;
+  background: #fff;
+  color: #000000;
+}
+img {
+  max-width: 70%;
+  height: auto;
+}
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.top_bar{
+  background-color: #FAFAFA;
+}
+.left_topbar{
+  font-size: 15px;
+}
+.top_bar_address{
+  font-size: 12px;
+}
+.top_bar_address a{
+  font-size: 12px;
+  color: #FC8A06;
+}
+.top_bar_item {
+  background-color: #028643;
+  border-radius: 0 0 10px 10px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.item_img {
+  height: 70%;
+  margin: 10px auto;
+  display: block;
+}
+
+.item_text {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+.navbar {
+  background-color: #fff;
+  border: none;
+}
+
+.middle_section ul li {
+  margin-right: 20px;
+}
+.middle_section ul li a {
+  color: #000000;
+}
+.middle_section ul li:hover {
+  border-radius: 15px;
+  background-color: #FC8A06;
+}
+.middle_section ul li a:hover { 
+  color: #fff;
+}
+.login_signin {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
+}
+.login_signin span{ 
+  margin-left: 10px;
+}
+.intro_area {
+  background-image: url('/src/assets/Group\ 23.png');
+  color: #fff;
+}
+
+.text_box {
+  margin:0px 15px;
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  border-radius: 25px ;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.intro_rating{
+  color: #000000;
+  text-align: center;
+  margin-top: 90px;
+  top: 20px;
+  left: -20px;
+  width: 140px;
+  z-index: 10;
+}
+
+.open_timing{
+  position: relative;
+  background-color: #FC8A06;
+  width: 200px;
+  padding: 4px 10px;
+  border-radius:0px 10px 10px 0;
+  top: 40px;
+  left: -36px ;
+  font-size: 12px;
+  font-weight: bold;
+}
+.open_timing img{
+  width: 20px;
+  margin-right: 6px;
+}
+
+.search_box {
+ border: 1px solid #000;
+  max-width: 300px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+
+}
+.search_box button {
+  width: 22%; 
+  border-radius: 50px;
+}
+
+.search_box input {
+  border: none;
+  width: 78%;
+  border-radius:50px ;
+}
+.search_box input:focus {
+  outline: none;
+  border-radius: 50px;
+}
+.search_box button:focus {
+  outline: none;
+  border-radius: 50px;
+}
