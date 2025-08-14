@@ -1,0 +1,38 @@
+.main_nav {
+  background-color: #2c2f48;
+}
+
+.main_nav ul li {
+  margin-right: 22px;
+  border-radius: 25px;
+  padding: 0px 7px;
+  transition: all 0.3s ease;
+}
+
+.main_nav ul li a {
+  color: #fff;
+  font-weight: 600;
+  padding: 5px;
+  transition: color 0.3s ease;
+}
+
+.main_nav ul li:hover {
+  background-color: #1c2035;
+}
+
+.main_nav ul li a:hover {
+  color: #fafafa;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .main_nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main_nav ul li {
+    margin-right: 0;
+    padding: 5px 10px;
+  }
+}
