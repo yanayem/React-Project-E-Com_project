@@ -350,3 +350,160 @@ img {
   transition: all 0.3s ease;
 }
 
+/* Base Layout */
+.topbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
+}
+
+.topbar-left,
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar-right {
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.topbar-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.topbar-text {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.promo-text {
+  color: #FC8A06;
+  font-weight: 600;
+}
+
+.location-link {
+  color: #FC8A06;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.topbar-address {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.topbar-basket {
+  background-color: #28a745; 
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-left: 1px solid #ccc;
+  padding-left: 12px;
+}
+
+.basket-text {
+  margin: 0;
+  font-size: 14px;
+  border-left: 1px solid #ccc;
+  padding-left: 12px;
+}
+
+.basket-icon {
+  width: 22px;
+  height: 22px;
+}
+
+/* Tablet Styles */
+@media (max-width: 992px) {
+  .topbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+  }
+  .topbar-right {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 576px) {
+  .topbar-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .topbar-left,
+  .topbar-right {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 6px;
+  }
+
+  .topbar-address,
+  .topbar-basket {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    padding: 0;
+  }
+
+  .basket-text {
+    border: none;
+    padding: 0;
+  }
+}
+
+/* Base size tweaks */
+.icon-sm {
+  width: 24px;
+}
+
+.icon-xs {
+  width: 20px;
+}
+
+.intro-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile adjustments */
+@media (max-width: 576px) {
+  .intro-title {
+    font-size: 1.5rem; /* smaller title */
+  }
+
+  .intro-subtitle {
+    font-size: 1rem;
+  }
+
+  .icon-sm {
+    width: 18px;
+  }
+
+  .icon-xs {
+    width: 16px;
+  }
+
+  .search-title {
+    font-size: 1rem;
+  }
+
+  .custom-search-box input {
+    font-size: 0.9rem;
+  }
+}
